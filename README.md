@@ -6,13 +6,22 @@ Primary development on a Windows 10 machine with Cygwin, but instructions should
 
 ### Prerequisites
 
-```
-[cygwin with make (part of the development package)](https://www.cygwin.com/)
-add the cygwin bin subdirectory to your path
-```
+*[cygwin with make (part of the development package)](https://www.cygwin.com/)
+*Add the cygwin bin subdirectory to your path
+
 
 NES tools (add to your nes-cc65 home directory to avoid makefile changes)
 
-* [cc65] (http://cc65.github.io/cc65/) 
+* [cc65](http://cc65.github.io/cc65/) 
 * [fceux emulator](http://www.fceux.com/web/home.html)
 * [yychr](https://www.romhacking.net/utilities/119/)
+
+Directory structure should look like
+
+```
+/nes-cc65
+    /cc65
+    /dev
+    /fceux
+    /yychr
+```
