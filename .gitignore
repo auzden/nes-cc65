@@ -1,3 +1,6 @@
+# NES Specific
+*.nes
+
 # Prerequisites
 *.d
 
