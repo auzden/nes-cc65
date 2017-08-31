@@ -1,5 +1,8 @@
 # NES Specific
 *.nes
+cc65/
+fceux/
+yychr/
 
 # Prerequisites
 *.d
