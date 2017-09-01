@@ -7,7 +7,7 @@
             "taskName": "NES Emulator",
             "type": "shell",
             "windows": {
-                "command": "..\\fceux\\fceux.exe ${workspaceRoot}\\lesson1\\lesson1.nes"
+                "command": "..\\fceux\\fceux.exe ${fileDirname}\\${fileBasenameNoExtension}.nes"
             },
             "problemMatcher": [
                 "$eslint-stylish"
@@ -21,7 +21,7 @@
             },
             "type": "shell",
             "windows": {
-                "command": "cd ${workspaceRoot}\\lesson1; make clean; make"
+                "command": "cd ${fileDirname}; make clean; make"
             },
             "problemMatcher": [
                 "$eslint-stylish"
