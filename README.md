@@ -15,6 +15,7 @@ NES tools (add to your nes-cc65 home directory to avoid makefile changes)
 * [cc65](http://cc65.github.io/cc65/) 
 * [fceux emulator](http://www.fceux.com/web/home.html)
 * [yychr](https://www.romhacking.net/utilities/119/)
+* [NES Screen Tool](https://shiru.untergrund.net/software.shtml)
 
 Directory structure should look like:
 
@@ -23,5 +24,6 @@ Directory structure should look like:
     /cc65
     /dev
     /fceux
+    /nesst
     /yychr
 ```
